@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — TRM Colombia</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a3a6b 0%, #2563eb 100%);
+      color: white;
+      padding: 56px 24px 48px;
+      text-align: center;
+    }
+
+    .app-icon {
+      width: 80px;
+      height: 80px;
+      background: white;
+      border-radius: 20px;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 8px;
+      opacity: 0.85;
+      font-size: 1rem;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 48px auto;
+      padding: 0 24px 64px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .card h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #2563eb;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card h2 .icon {
+      width: 32px;
+      height: 32px;
+      background: #eff6ff;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .card p {
+      color: #3d3d3f;
+      font-size: 0.97rem;
+    }
+
+    .card ul {
+      list-style: none;
+      margin-top: 10px;
+    }
+
+    .card ul li {
+      padding: 6px 0;
+      padding-left: 20px;
+      position: relative;
+      color: #3d3d3f;
+      font-size: 0.97rem;
+    }
+
+    .card ul li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 14px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #2563eb;
+    }
+
+    .badge-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .badge {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-radius: 999px;
+      padding: 5px 14px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .updated {
+      text-align: center;
+      color: #8a8a8e;
+      font-size: 0.85rem;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      header { padding: 40px 20px 36px; }
+      header h1 { font-size: 1.6rem; }
+      .card { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="app-icon">$</div>
+    <h1>TRM Colombia</h1>
+    <p>Privacy Policy</p>
+  </header>
+
+  <main>
+
+    <div class="card">
+      <h2><span class="icon">&#128274;</span>No Personal Data Collected</h2>
+      <p>TRM Colombia does not collect, store, transmit, or share any personal information. No account, login, or registration is required to use the app.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="icon">&#127760;</span>Network Requests</h2>
+      <p>The app fetches publicly available exchange rate data from the following sources. No user data is included in these requests.</p>
+      <ul>
+        <li><strong>datos.gov.co</strong> — Official Colombian government open data (TRM)</li>
+        <li><strong>cdn.jsdelivr.net</strong> — Public currency API (EUR/USD rate)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2><span class="icon">&#128190;</span>Local Storage</h2>
+      <p>Exchange rate data is cached locally on your device to reduce network usage. This cached data contains only exchange rates and dates — no personal information of any kind.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="icon">&#128683;</span>No Third-Party Tracking</h2>
+      <p>TRM Colombia does not use any of the following:</p>
+      <div class="badge-row">
+        <span class="badge">Analytics SDKs</span>
+        <span class="badge">Advertising</span>
+        <span class="badge">Crash reporting</span>
+        <span class="badge">User tracking</span>
+        <span class="badge">Social logins</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2><span class="icon">&#128231;</span>Contact</h2>
+      <p>If you have any questions about this privacy policy, you can reach us at:<br />
+      <a href="mailto:wabrito@gmail.com">wabrito@gmail.com</a></p>
+    </div>
+
+    <p class="updated">Last updated: April 13, 2026</p>
+
+  </main>
+
+</body>
+</html>
